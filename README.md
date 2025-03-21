@@ -16,7 +16,9 @@
 
 ### 3. If the function is needed to upload a file into an S3 bucket, describe (i.e no need for the actual policies)
 
-- What is the needed update on the execution role?
+### What is the needed update on the execution role?
+- To allow the Lambda function to upload files to an S3 bucket, the execution role must be updated to include the necessary permissions.
+- Specifically, the role needs the s3:PutObject permission for the target S3 bucket.
 
-- What is the new resource-based policy that needs to be added (if any)?
+### What is the new resource-based policy that needs to be added (if any)?
 
