@@ -9,10 +9,7 @@ Defines the permissions that the function has when it is executed
 
 ## 3. If the function is needed to upload a file into an S3 bucket, describe (i.e no need for the actual policies)
 
-###        -3a. What is the needed update on the execution role?
+###-        3a. What is the needed update on the execution role?
 
-###        - 3b. What is the new resource-based policy that needs to be added (if any)?
+###-        3b. What is the new resource-based policy that needs to be added (if any)?
 
-100. First list item
-     - First nested list item
-       - Second nested list item
