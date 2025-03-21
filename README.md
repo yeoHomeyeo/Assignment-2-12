@@ -19,6 +19,11 @@
 ### What is the needed update on the execution role?
 - To allow the Lambda function to upload files to an S3 bucket, the execution role must be updated to include the necessary permissions.
 - Specifically, the role needs the s3:PutObject permission for the target S3 bucket.
+- source: https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-with-s3-actions.html
 
 ### What is the new resource-based policy that needs to be added (if any)?
-
+- No new resource-based policy is required for the Lambda function to upload files to S3.
+- The resource-based policy is only needed to allow other services (like S3) to invoke the Lambda function.
+- Since the Lambda function is performing the upload action itself, the permissions are handled by the execution role, not the resource-based policy
+- source: https://docs.aws.amazon.com/lambda/latest/dg/access-control-resource-based.html
+  
