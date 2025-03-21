@@ -3,7 +3,7 @@
 ## Given a Lambda function that is triggered upon the creation of files in an S3 bucket, answer the following:
 
 ### 1. What is the purpose of the execution role on the Lambda function?
-    - Defines the permissions that the function has when it is executed.
+- Defines the permissions that the function has when it is executed.
 
 ### 2. What is the purpose of the resource-based policy on the Lambda function?
 
