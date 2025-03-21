@@ -1,4 +1,4 @@
-# <ins> Assignment-2-12: Assignment 2-12 Function as a Service /<ins>
+# <ins> Assignment-2-12: Assignment 2-12 Function as a Service <ins>
 
 # Given a Lambda function that is triggered upon the creation of files in an S3 bucket, answer the following:
 ## 1. What is the purpose of the execution role on the Lambda function?
